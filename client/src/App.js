@@ -7,6 +7,8 @@ import TrashCard from "./components/TrashCard";
 import Footer from "./components/Footer";
 import { router } from "./routes/routes";
 import { RouterProvider } from "react-router-dom";
+import { ToastContainer, toast } from 'react-toastify';
+  import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
     return (
@@ -14,6 +16,7 @@ function App() {
             <Navbar />
             <RouterProvider router={router} />
             <Footer />
+            <ToastContainer/>
         </div>
     );
 }
