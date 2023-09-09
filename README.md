@@ -34,4 +34,5 @@ Trash-Track is a full-stack web application designed to track and manage waste c
 ## Link
 
 **Frontend:** [Open](https://trash-track-chi.vercel.app/)
+
 **Backend:** [Open](https://trashtrack-server.onrender.com/)
